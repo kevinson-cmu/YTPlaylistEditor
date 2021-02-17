@@ -1,0 +1,21 @@
+//let nonce = encodeURIComponent(Math.random().toString(36).substring(2,15) + Math.random().toString(36).substring(2,15));
+
+/*const user_info = KJUR.jws.JWS.readSafeJSONString(b64utoutf8(token.split(".")[1]));
+    if((user_info.iss === 'https://accounts.google.com' || user_signed_in.iss === 'accounts.google.com')
+    && user_info.aud === CLIENT_ID){
+        console.log(user_info);
+    }*/
+
+/*function waiter(wait){
+    if(!wait){
+        return;
+    }else{
+        setTimeout(waiter, 100);
+    }
+}*/
+
+/*document.querySelector('button').addEventListener('click',function(){
+    chrome.runtime.sendMessage({message: 'isUserSignedIn'}, function(response){
+        alert("Not signed in");
+    });
+});*/
